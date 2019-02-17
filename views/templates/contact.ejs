@@ -1,0 +1,36 @@
+<% include ../partials/header.ejs %>
+
+<div>
+<div id = "left" style="margin-left:425px">
+     <h1 class="display-4"><b>Manthan Shah</b></h1>
+            <p style ="font-size:24px ">Email id : manthanshah1711@gmail.com</p>
+            <p style ="font-size:24px ">Cell: (647)-928-1917</p> 
+</div>
+    <div id = "right">
+        <form> 
+            <h2>Contact Form</h2>
+            First Name:<br> 
+            <input type="text" name="firstname"> 
+            <br> 
+            Last Name:<br> 
+            <input type="text" name="lastname"> 
+            <br>
+            Contact Number:<br> 
+            <input type="text" name="contact"> 
+            <br>
+            Email ID:<br> 
+            <input type="text" name="emailid"> 
+            <br>
+            Message:<br>
+            <label for="Message"></label> 
+            <textarea rows="5" cols="50" name="Message"
+                            id="Message"></textarea>
+                            <br>
+            <a class="btn btn-primary" href="/home.ejs" role="button">Submit</a>
+            
+        </form>
+    </div>
+</div>
+      
+
+<% include ../partials/footer.ejs %>

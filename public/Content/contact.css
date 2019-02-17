@@ -1,0 +1,29 @@
+#left{
+   
+    float : left;
+    
+}
+
+#right{
+    float : right;
+    
+}
+
+
+
+
+#first{
+    float: top;
+    height: 50%;
+
+}
+
+#second{
+    float: center;
+    height:50%;
+}
+
+#third{
+    float: bottom;
+    height:50%;
+}
